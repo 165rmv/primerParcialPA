@@ -2,8 +2,10 @@
  
 // 3. ¿Qué quieren decir los elementos de este arreglo?
 int bits[16] = { 0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4 };
+/* es una secuencia que posteriormente se compara con 0xf, 
+creo que por su nombre bits tiene que estar relacionado a los bits que tiene cada una de las variables.
 
-
+*/
  
 // 1. ¿Qué hace la función what?
 unsigned int what(unsigned int num) {
