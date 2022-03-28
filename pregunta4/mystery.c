@@ -24,7 +24,7 @@ unsigned int what(unsigned int num) {
     }
 
 // 2. ¿Cuál sería el máximo número valor que puede tomar result?
-    return result; 
+    return result; // como esta definido como un int, su limite es de 2147483647
 }
  
 

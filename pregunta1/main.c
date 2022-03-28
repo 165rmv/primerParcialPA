@@ -13,5 +13,9 @@ int main() {
     for(i=0; i<10; i++) {
         printf("%d\n", *I2S(x+i));
     }
-    // todo tiene que ver con este segundo for. S eobserva que *I2S es un apuntador, que pasa a la función x+1. en define se ve que se tiene definida como un short.  Aqui se intercalan los numeros hasta completar 10 secuencias. 
+    /* 
+    todo tiene que ver con este segundo for. Se observa que *I2S es un apuntador, 
+    que pasa a la función x+i, se ve que se tiene definida como un ((short *) x). 
+    Es aqui donde se intercalan los numeros hasta completar 10 secuencias. 
+    */
 }
